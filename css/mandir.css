@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+header,.container,marquee,aside,article,footer {
+	border: 1px solid red;
+}
+
+header {
+ 	background-color: #999999;
+        padding: 15px;
+	text-align:center;
+	 }
+
+ #navbar {
+  overflow: hidden;
+  background-color:green;
+  
+	}
+ #navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 15px;
+}
+ #navbar a:hover {
+  background-color: #ddd;
+  color: yellow;
+}
+.content {
+  padding: 15px;
+}
+.sticky {
+  position: fixed;
+  top: 15px;
+  width: 100%;
+}
+
+marquee,aside,article,footer {
+	color:black;
+	background-color: white;
+	padding: 15px ;
+	font-size: 17px;
+	font-family: normal;
+	text-align: center;
+}
+.myslides>img {
+	height:100%;
+}
+
